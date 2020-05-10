@@ -5,6 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  array.map do {|names| "Hello, my name is #{name}."}
-end
+  array.map do |names| 
+    puts "Hello, my name is #{name}."
+  end
 end
